@@ -1,0 +1,11 @@
+noise(25,.1)
+  	.out(o3)
+osc(6,.1,12)
+	.out(o1)
+shape(113.1,.99)
+	.modulate(o3,3)
+	.modulate(o1,.19)
+	.modulate(o0,.19)
+	.colorama(15.35)
+	.out(o0)
+

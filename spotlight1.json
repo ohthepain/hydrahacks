@@ -1,0 +1,7 @@
+noise(25,1)
+	.modulate(o3,3)
+	.out(o3)
+shape(113.1)
+	.modulate(o3,5)
+	.out(o0)
+

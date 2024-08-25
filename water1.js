@@ -1,0 +1,11 @@
+osc(30,.1,1)
+	.out(o1)
+osc(20,.1,1)
+	.rotate(1.6)
+	.out(o2)
+shape(1.1)
+	.repeatY(12)
+	.modulate(o1)
+	.modulate(o2)
+	.out(o0)
+
